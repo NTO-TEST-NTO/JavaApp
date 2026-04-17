@@ -18,7 +18,7 @@ public class WelcomeController {
 	public String welcome(ModelMap model) {
  
 		model.addAttribute("message", "");
-		logger.debug("[welcome]");
+		logger.debug("[welcome to you]");
  
 		return VIEW_INDEX;
  
